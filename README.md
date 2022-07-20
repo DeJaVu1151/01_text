@@ -1,1 +1,1 @@
-i applied <strong> & <en>
+i applied strong & en
