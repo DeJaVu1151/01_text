@@ -1,1 +1,1 @@
-# text
+i applied <strong> & <en>
