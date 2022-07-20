@@ -1,1 +1,1 @@
-i applied strong & en in HTML
+i applied strong & en in HTML.
