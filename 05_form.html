@@ -1,23 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
-</head>
-<body>
-    <h1>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+        </head>
+        <body>
+         <h1>
         form
-    </h1>
-    <form>  
+        </h1>
+        <br>  
         <div>
             <label for="text">Текст</label>
-            <input tupe="text" id="text">
+            <input tupe="text" id="text" value="Текст по умолчанеию" readonly>
         </div>
         <div>
             <label for="email">Email</label>
-            <input tupe="email" id="email">
+            <input tupe="email" id="email"
+            placeholder="Введите email">
+            
         </div>
         <div>
             <label for="password">Пароль</label>
@@ -47,11 +49,27 @@
         <div>
             <label for="sex">Ваш пол</label>
             <select id="sex">   
-                <option value="">Мужчина</option>
-                <option value="">Женщина</option>
-                <option value="">Другое</option>
+                <option value="male">Мужчина</option>
+                <option value="female">Женщина</option>
+                <option value="other">Другое</option><!--selected-->>
             </select>
         </div>
+        <div>
+            <label>Количество работ</label>
+            <input tupe="radio" name="work">1
+            <input tupe="radio"name="work">2
+            <input tupe="radio"name="work">5
+            <input tupe="radio"name="work">10+
+        </div>
+        <div>
+            <label>Любимая еда</label>
+            <input tupe="checkbox" name="food">еда1
+            <input tupe="checkbox"name="food">еда2
+            <input tupe="checkbox"name="food">еда3
+            <input tupe="checkbox"name="food">еда4
+        </div>
+        <!--input type="submit" value="Отправить форму"--> 
+        <button type="submit">Отправить форму</button>
     </form>
 </body>
 </html>
